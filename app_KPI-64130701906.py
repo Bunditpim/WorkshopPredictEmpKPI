@@ -5,6 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pickle
+import matplotlib.pyplot as plt
 
 # Load model and encoders
 with open('model_kpi.pkl', 'rb') as file:
