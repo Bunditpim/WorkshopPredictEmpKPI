@@ -1,11 +1,12 @@
-
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler
+from xgboost import XGBClassifier
 import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pickle
-import matplotlib.pyplot as plt
 
 # Load model and encoders
 with open('model_kpi.pkl', 'rb') as file:
