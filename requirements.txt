@@ -1,6 +1,5 @@
-
+matplotlib
 scikit-learn==1.2.2
 xgboost
 pandas
-python -m pip install -U pip
-python -m pip install -U matplotlib
+seaborn
